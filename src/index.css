@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: 15 23 42;
+        /* slate-900 - dark blue */
+        --color-secondary: 30 58 138;
+        /* blue-900 */
+        --color-accent: 59 130 246;
+        /* blue-500 */
+        --color-light: 248 250 252;
+        /* slate-50 */
+        --color-gray: 148 163 184;
+        /* slate-400 */
+    }
+
+    * {
+        @apply border-slate-200;
+    }
+
+    body {
+        @apply bg-slate-50 text-slate-900 antialiased;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+            'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@layer components {
+    .section-container {
+        @apply max-w-7xl mx-auto px-6 py-20;
+    }
+
+    .section-title {
+        @apply text-4xl font-bold text-slate-900 mb-4 text-center;
+    }
+
+    .section-subtitle {
+        @apply text-lg text-slate-600 text-center mb-12 max-w-3xl mx-auto;
+    }
+
+    .card {
+        @apply bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300;
+    }
+
+    .btn-primary {
+        @apply bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors duration-300 inline-flex items-center gap-2;
+    }
+
+    .btn-secondary {
+        @apply bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold border-2 border-blue-900 hover:bg-blue-50 transition-colors duration-300 inline-flex items-center gap-2;
+    }
+
+    .skill-badge {
+        @apply bg-blue-50 text-blue-900 px-4 py-2 rounded-full text-sm font-medium border border-blue-200 hover:bg-blue-100 transition-colors duration-200;
+    }
+}
+
+@layer utilities {
+    .text-gradient {
+        @apply bg-gradient-to-r from-blue-900 to-blue-600 bg-clip-text text-transparent;
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 0.6s ease-in;
+    }
+
+    .animate-slide-up {
+        animation: slideUp 0.6s ease-out;
+    }
+
+    .animate-slide-down {
+        animation: slideDown 0.6s ease-out;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-blue-900 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-blue-800;
+}
