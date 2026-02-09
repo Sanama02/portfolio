@@ -56,7 +56,7 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.8 }}
                     >
                         <a
-                            href="/Cv_SANAMA_ABONDANCE.pdf"
+                            href="./Cv_SANAMA_ABONDANCE.pdf"
                             download="CV_Abondance_SANAMA.pdf"
                             className="btn-primary"
                         >
