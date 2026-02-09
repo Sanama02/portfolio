@@ -56,13 +56,9 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.8 }}
                     >
                         <a
-                            href="#"
+                            href="/Cv_SANAMA_ABONDANCE.pdf"
+                            download="CV_Abondance_SANAMA.pdf"
                             className="btn-primary"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                // You can add actual CV download logic here
-                                alert('Fonctionnalité de téléchargement du CV à implémenter');
-                            }}
                         >
                             <Download size={20} />
                             Télécharger CV
