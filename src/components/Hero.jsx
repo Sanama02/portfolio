@@ -35,7 +35,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.4 }}
                     >
-                        Auditeur Interne Junior | Contrôle Interne & Gestion des Risques
+                        Auditrice Interne Junior | Contrôle Interne & Gestion des Risques
                     </motion.h2>
 
                     {/* Tagline */}

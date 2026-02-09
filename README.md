@@ -1,6 +1,6 @@
 # Portfolio Website - Abondance SANAMA
 
-Site web portfolio professionnel pour Abondance SANAMA, Auditeur Interne Junior spécialisé en Contrôle Interne et Gestion des Risques.
+Site web portfolio professionnel pour Abondance SANAMA, Auditrice Interne Junior spécialisé en Contrôle Interne et Gestion des Risques.
 
 ## 🚀 Démarrage Rapide
 

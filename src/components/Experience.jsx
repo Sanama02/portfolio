@@ -9,7 +9,7 @@ const Experience = () => {
     const experiences = [
         {
             company: 'OSS CONSULTING',
-            position: 'Auditeur Interne Junior',
+            position: 'Auditrice Interne Junior',
             type: 'Alternance - 2 ans',
             location: 'Douala, Cameroun',
             period: '2022 - 2024',

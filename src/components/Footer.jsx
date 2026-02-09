@@ -14,7 +14,7 @@ const Footer = () => {
                         <div>
                             <h3 className="text-xl font-bold mb-4">Abondance SANAMA</h3>
                             <p className="text-slate-400 text-sm leading-relaxed">
-                                Auditeur Interne Junior spécialisé en Contrôle Interne et Gestion des Risques,
+                                Auditrice Interne Junior spécialisé en Contrôle Interne et Gestion des Risques,
                                 passionné par l'amélioration continue et la création de valeur.
                             </p>
                         </div>

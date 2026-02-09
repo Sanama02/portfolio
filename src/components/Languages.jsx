@@ -16,7 +16,7 @@ const Languages = () => {
         {
             name: 'Anglais',
             level: 'Courant',
-            proficiency: 95,
+            proficiency: 100,
             flag: '🇬🇧'
         }
     ];
